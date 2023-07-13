@@ -38,6 +38,7 @@
     background: transparent;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    box-shadow: 2px 1px 1px #00000034;
 }
 
 @media screen and (max-width: 500px){

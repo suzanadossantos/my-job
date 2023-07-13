@@ -10,7 +10,7 @@ function Home() {
   <>
     <Header />
     <main className={styles.main}>
-      <img src={image} />
+      <img src={image} alt='imagem sobre trabalho'/>
       <div>
         <h1>Find your new <span>job</span></h1>
         <p>Remote, freelance, part-time...</p>
