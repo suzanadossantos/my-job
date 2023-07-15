@@ -1,4 +1,4 @@
-main{
+main.home{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,11 +11,11 @@ main{
     height: 90vh;
 }
 
-main img{
+main.home img{
     display: none;
 }
 
-main div{
+main.home div{
     background: rgba(255, 255, 255, 0.658);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -29,20 +29,20 @@ main div{
     justify-content: center;
 }
 
-main div h1{
+main.home div h1{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: -10px;
 }
 
-main div h1 span{
+main.home div h1 span{
     color: #A527D9;
 }
 
-main div p{
+main.home div p{
     font-family: 'Playfair Display', serif;
 }
 
-main button{
+main.home button{
     cursor: pointer;
     border: 2px solid #000;
     border-radius: 5px;
@@ -55,14 +55,14 @@ main button{
 }
 
 @media screen and (min-width: 500px){
-    main button:hover{
+    main.home button:hover{
         transition: 2ms;
         transform: scale(1.1);
     }
 }
 
 @media screen and (min-width: 1050px) {
-    main{
+    main.home{
         background-image: none;
         justify-content: space-between;
         flex-direction: row-reverse;
@@ -72,14 +72,14 @@ main button{
         margin-top: 10px;
     }
 
-    main img{
+    main.home img{
         display: block;
         width: 100%;
         height: 100%;
         margin: auto;
     }
 
-    main div{
+    main.home div{
         background-color: #D9D9D9;
         width: 100%;
         height: 100%;
@@ -91,11 +91,11 @@ main button{
         padding-left: 50px;
     }
 
-    main div h1{
+    main.home div h1{
         font-size: 3em;
     }
 
-    main div p{
+    main.home div p{
         font-size: 1.3em;
     }
 }
