@@ -1,0 +1,59 @@
+main.profile{
+    background-color: #F1F1F1;
+}
+
+main.profile div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #A527D9;
+}
+
+main.profile div section{
+    background-color: #FFF;
+    margin: 20px;
+    padding: 15px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+main.profile div section span.profile_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main.profile div section div.icons{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+    background-color: #FFF;
+    gap: 20px; 
+    color: #A527D9;
+    font-size: 1.6em;
+}
+
+main.profile div section p span, main.profile div section ul li span{
+    cursor: pointer;
+    color: #A527D9;
+}
+
+hr{
+    margin: 30px 5px;
+}
+
+@media screen and (min-width: 1000px){
+    main.profile div{
+        flex-direction: row;
+        align-items: start;
+        width: 100%;
+    }
+
+    main.profile div section{
+        width: 50%;
+        margin: 30px;
+    }
+}

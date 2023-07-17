@@ -80,6 +80,7 @@ main.job div.jobs div.row img{
 
 .icon{
     margin: auto;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 500px){
